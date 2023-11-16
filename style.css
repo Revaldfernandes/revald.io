@@ -1,0 +1,144 @@
+
+@import url(https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background: #222;
+  background-image: linear-gradient(
+    5deg,
+    hsl(240deg 85% 16%) 0%,
+    hsl(251deg 84% 14%) 9%,
+    hsl(258deg 82% 12%) 18%,
+    hsl(266deg 79% 10%) 27%,
+    hsl(268deg 65% 10%) 36%,
+    hsl(268deg 53% 13%) 45%,
+    hsl(272deg 51% 16%) 55%,
+    hsl(276deg 49% 20%) 64%,
+    hsl(272deg 51% 19%) 73%,
+    hsl(262deg 55% 17%) 82%,
+    hsl(251deg 59% 15%) 91%,
+    hsl(244deg 74% 12%) 100%
+  );
+  background-size: cover;
+  font-size: 120%;
+}
+.title  h1{
+  
+  margin-top: 30px;
+  transform: rotateX(0) rotateY(-25deg);
+    
+    width: 500px;
+
+    color: #b9dfff;
+    color: #fff;
+    
+    text-shadow: 0 0 5px #fff,0 0 10px #fff,0 0 15px #fff,0 0 20px #800080,0 0 35px #800080,0 0 40px #800080;
+ 
+ 
+}
+.container{
+    background-color: transparent;
+    max-width: 450px;
+   
+    border-radius: 15px;
+    box-shadow: 0 0 10px #800080, 0 0 5px #800080;
+    padding: 20px;
+    
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    gap: 10px;
+}
+.temp-icon{
+    font-size: 45px;
+    color: #000;
+}
+h1{
+    color: #000;
+    letter-spacing: 1.2px;
+    font-size: 30px;
+}
+#celcius, #fahrenheit, #kelvin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+input{
+    flex: 5;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 8px 0 0 8px;
+    padding: 0 10px;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+
+
+input{
+    -moz-appearance: textfield;
+}
+.icon{
+    flex: 1;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 5px;
+    text-align: center;
+    font-size: 30px;
+    background-color: #5896dc;
+    color: #000;
+    border-radius: 0 8px 8px 0;
+}
+.button{
+    margin: 0.5em;
+  border-radius: 50%;
+  
+    margin-top: 25px;
+    text-align: center;
+    cursor: pointer;
+}
+.button button{
+    border: none;
+    outline: none;
+    padding: 10px 30px;
+    background: #7c7c7c2b;
+  color: white;
+   
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.button button:hover{
+    
+    background: #800080;
+
+  
+}
+
+
+
